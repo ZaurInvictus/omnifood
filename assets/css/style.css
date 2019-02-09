@@ -11,13 +11,15 @@ ORANGE COLOR #e67e22
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #fff;
   color: #555;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 20px; /*BASE FONT SIZE. TO DEFINE FONT SIZES ON PAGE DIVIDE THEM BY BASE SIZE & WRITE IN PERCENTAGES */
   text-rendering: optimizeLegibility;
+  overflow-x: hidden; 
 }
 
 .clearfix {zoom: 1}
