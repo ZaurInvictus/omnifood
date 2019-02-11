@@ -20,6 +20,7 @@ body {
   font-size: 20px; /*BASE FONT SIZE. TO DEFINE FONT SIZES ON PAGE DIVIDE THEM BY BASE SIZE & WRITE IN PERCENTAGES */
   text-rendering: optimizeLegibility;
   overflow-x: hidden; 
+  scroll-behavior: smooth;
 }
 
 .clearfix {zoom: 1}

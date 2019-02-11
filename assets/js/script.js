@@ -1,20 +1,20 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
- $('.js--section-features').waypoint(function(direction) {
-   if(direction == "down") {
-       $('nav').addClass('sticky');
-   } else {
-       $('nav').removeClass();
-   }
+  /* FOR THE STICKY NAVIGATION */
+  $('.js--section-features').waypoint(function (direction) {
+    if (direction == "down") {
+      $('nav').addClass('sticky');
+    } else {
+      $('nav').removeClass();
+    }
 
-   }, {
-     offset: '60px;' // event happens 60px before we reach chosen section
- });
+  }, {
+    offset: '60px;' // event happens 60px before we reach chosen section
+  });
+    
+  /* SCROLL ON BUTTONS */
+   $('.js--scroll-to-plans').click(function () {
+     $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000);
+   });
 
-
-  // var waypoints = $('#handler-first').waypoint(function(direction) {
-  //   notify(this.element.id + ' hit 25% from top of window') 
-  // }, {
-  //   offset: '25%'
-  // })
 });
