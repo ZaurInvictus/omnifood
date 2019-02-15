@@ -92,12 +92,14 @@
     margin: 0 0 4% 0%;
   }
 
-  /* .main-nav{display: none;} */
+  .js--main-nav{display: none;}
+
   /* MOBILE NAVIGATION */
   .mobile-nav-icon {display: inline-block;}
 
    .main-nav {
      float: left;
+     margin-top: 30px;
    }
 
    .main-nav li {
@@ -108,9 +110,30 @@
    .main-nav li a:visited {
       display: block;
       border: 0;
+      padding: 10px 0;
+      font-size: 100%;
    }
 
+   .mobile-nav-btn {
+    font-size: 200%;
+    color:#fff;
+    margin-top: 30px;
+  }
     /* MOBILE NAVIGATION ENDS */
+
+
+ /* STICKY NAVIGATION */
+
+    .sticky .main-nav {margin-top: 10px;}
+
+    .sticky .main-nav li a:link, 
+    .sticky .main-nav li a:visited {padding: 10px 0;}
+    .sticky .mobile-nav-btn {
+      color: #555;
+      margin-top: 10px;
+    }
+    
+ /* STICKY NAVIGATION ENDS */
     
   h1 {font-size: 180%;}
   h2 {font-size: 150%;}

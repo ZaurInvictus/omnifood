@@ -47,4 +47,15 @@ $(document).ready(function () {
      offset: '50%'
    });
 
+
+  /* MOBILE NAVIGATION */
+  $('.js--nav-icon').click(function() {
+    var nav = $('.js--main-nav');
+  
+    console.log('clicked');
+    nav.slideToggle(200);
+  });
+
+
 });
+
