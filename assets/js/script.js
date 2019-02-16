@@ -49,13 +49,32 @@ $(document).ready(function () {
 
 
   /* MOBILE NAVIGATION */
-  $('.js--nav-icon').click(function() {
-    var nav = $('.js--main-nav');
-  
-    console.log('clicked');
-    nav.slideToggle(200);
-  });
+   $('.js--nav-icon').click(function() {
+      // var nav = $('.js--main-nav');
+      //  var icon =$('.js--nav-icon');
+       
+      //   nav.slideToggle(200);
 
+      //  if(icon.hasClass('icon-navicon-round')) {
+      //       icon.addClass('ion-close-round')
+      //       icon.removeClass('icon-navicon-round')
+      //  } else {
+      //       icon.addClass('icon-navicon-round')
+      //       icon.removeClass('ion-close-round')
+      //  }
+   //});
+
+
+ /* MY SOLUTION */
+    $(".js--nav-icon").click(function(){
+      $(".js--main-nav").toggleClass("js--main-nav");
+    });
+
+  ///////////////////////////////
+  //12. There are some other problems going on with the navigation. How can I fix these?
+  //https://jsfiddle.net/d83ykzku/1/
+
+   /* MOBILE NAVIGATION ENDS*/
 
 });
 

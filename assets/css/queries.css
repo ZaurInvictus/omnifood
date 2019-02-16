@@ -92,9 +92,10 @@
     margin: 0 0 4% 0%;
   }
 
+  
+  /* MOBILE NAVIGATION */
   .js--main-nav{display: none;}
 
-  /* MOBILE NAVIGATION */
   .mobile-nav-icon {display: inline-block;}
 
    .main-nav {
