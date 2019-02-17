@@ -49,7 +49,7 @@ $(document).ready(function () {
 
 
   /* MOBILE NAVIGATION */
-   $('.js--nav-icon').click(function() {
+  //  $('.js--nav-icon').click(function() {
       // var nav = $('.js--main-nav');
       //  var icon =$('.js--nav-icon');
        
