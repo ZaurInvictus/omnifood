@@ -35,13 +35,13 @@
       <div class="row">
         <img src="assets/img/logo-white.png" alt="Omnifood logo" class="logo">
         <img src="assets/img/logo.png" alt="Omnifood logo" class="logo-black">
-        <ul class="main-nav js--main-nav">
+        <ul class="main-nav nav-show">
           <li><a href="#features">Food delivery</a></li>
           <li><a href="#works">How it works</a></li>
           <li><a href="#cities">Our cities</a></li>
           <li><a href="#plans">Sign up </a></li>
         </ul>
-        <a href="" class="mobile-nav-icon js--nav-icon"><ion-icon name="menu" class="mobile-nav-btn"></ion-icon></a>
+        <a href="" class="mobile-nav-icon"><ion-icon name="menu" class="mobile-nav-btn"></ion-icon></a>
         
       </div>
     
@@ -391,12 +391,27 @@
   <!-- SIGN UP. SECTION PLANS ENDS-->
 
   <!--SECTION FORM-->
-  <section class="section-form">
+  <section class="section-form" id="form">
     <div class="row">
       <h2>We're happy to hear from you</h2>
     </div>
     <div class="row">
-      <form method="POST" action="#" class="contact-form">
+      <form method="POST" action="mailer.php" class="contact-form">
+
+        <!-- PHP FORM  -->
+         <div class="row">
+            
+          <!-- <?php
+          if($_GET['success'] == 1) {
+            echo "<div class=\"form-messages success\">Thank you! Your message has been sent.</div>";
+          }
+          if($_GET['success'] == -1) {
+            echo "<div class=\"form-messages error\">Oops! Something went wrong. Please try again!</div>";
+          }
+           ?> -->
+
+         </div>
+       <!-- PHP FORM ENDS -->
 
         <div class="row">
           <div class="col span-1-of-3">

@@ -66,8 +66,8 @@ $(document).ready(function () {
 
 
  /* MY SOLUTION */
-    $(".js--nav-icon").click(function(){
-      $(".js--main-nav").toggleClass("js--main-nav");
+    $(".mobile-nav-icon").click(function(){
+      $(".main-nav").toggleClass("nav-show");
     });
 
   ///////////////////////////////
